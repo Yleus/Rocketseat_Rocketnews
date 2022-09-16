@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=League+Spartan:wght@400;500;700&family=Merriweather+Sans:wght@300;400;700&family=Poppins:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=League+Spartan:wght@400;500;700&family=Merriweather+Sans:wght@300;400;700&family=Poppins:wght@300;600&family=Work+Sans:wght@400;500;700&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: 0;
+  box-sizing: border-box;
+  
+  
+  
+}
+
+
+:root 
+{
+  --body-bg-color: #121214;
+  --text-color: #E1E1E6;
+  --title-color: #04D361;
+  --form-color: #A8A8A8;
+  --bg-button-color: #8257e5;
+}
+
+body 
+{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+
+main
+{
+  display: flex;
+  width: 100%;
+ 
+  
+}
+
+
+.box1 img
+{
+   width: 50%;
+   margin-bottom: 92px;
+}
+
+
+
+.principal
+{ background-color: #121214;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 50px ;
+  padding-left: 36px;
+}
+
+.imagem
+{
+  background-image: url(/assets/read_news.jpg);
+  background-repeat: no-repeat;   
+  background-position: center; 
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  
+}
+
+.box2 p:nth-child(1)
+{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;  
+  color: #08C05E;
+  margin-bottom: 8.53px;
+}
+.box2 p:nth-child(2)
+{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  
+  color: #FFFFFF;
+  margin-bottom: 9px;
+}
+.box2 p:nth-child(3)
+{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+.box3
+{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.box3 label
+{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 138.73%;
+
+  color: #A8A8A8;
+  margin-bottom: 17px;
+}
+
+.box3 input
+{
+  /*position: absolute;*/
+  width: 750px;
+  height: 48px;    
+  
+  padding-left: 10px;
+}
+
+.form
+{
+  
+  display: flex;
+  
+  
+  height: 48px;
+  background-color: #04D361;
+  padding-left: 5px;
+}
+
+.formparent
+{
+  display: flex;
+  width: 798px;
+  position: absolute;
+}
+
+.formparent a
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  background-color: #8257E5;
+
+  
+}
+
+
+
+.box4 a
+{
+  display: flex;
+  align-items: center;
+  width: 160px;
+}
+
+.box4 p
+{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 138.73%;
+
+  color: #8257E5;
+  margin-right: 5px;
+}
+
